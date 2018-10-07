@@ -57,7 +57,8 @@ class Login extends Component {
                 </div>
 
                 <div className="field">
-                    <button className="button" onClick={this.handleLoginOnClick}>login</button>
+                {/* type=submit default 값인데 자동 리로드가 된다 form 안에 있는 button 이라면  */}
+                    <button className="button" type="button" onClick={this.handleLoginOnClick}>login</button>
                 </div>
             </form>
         );

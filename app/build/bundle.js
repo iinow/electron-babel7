@@ -232,6 +232,7 @@ class Login extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "field"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
       className: "button",
+      type: "button",
       onClick: this.handleLoginOnClick
     }, "login")));
   }
